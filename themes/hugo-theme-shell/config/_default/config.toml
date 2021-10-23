@@ -1,4 +1,4 @@
-baseURL = "https://www.example.com/"
+baseURL = "https://cmicciche.netlify.app/
 title = "Shell"
 # author = "Yukuro"
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
@@ -44,7 +44,7 @@ ignoreErrors = ["error-remote-getjson"]
 
   # Note: speed at which text is displayed on the activity pages
   # Note: if set to 0, typing animation will be disabled
-  # Note: 
+  # Note:
   # Note: if you want to enable Mathjax, you need to set it to 0
   # Note: and set "math: true" at front matter in your Markdown file
   titleDelay = 0 # title speed : "title" in front matter
@@ -55,7 +55,7 @@ ignoreErrors = ["error-remote-getjson"]
   description = """
   Hi I am Cade!
   Nice to meet you!
-  
+
   """
 
   # Note: If you want to use a Markdown file, you can use the following
@@ -66,7 +66,7 @@ ignoreErrors = ["error-remote-getjson"]
   use = true
   folderName = "about_me"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
-  files = [ 
+  files = [
     ["Education", "/posts/about/education.md"],
     ["Work Experience", "posts/about/work.md"],
     ["Projects", "/posts/about/projects.md"]

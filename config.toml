@@ -1,3 +1,30 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://cmicciche1.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Cade Micciche - Software Engineer'
+theme = "nix"
+
+[params]
+  Name = "cade"
+  HeaderUsername = "cade"
+  HeaderHostname = "local.machine"
+  About = "Hi there, I'm Cade! I am a Software Engineer and Computer Science student, who has a passion for developing. Outside of work/school I enjoy the outdoors, running, swimming, photography, and travel. On this website you can find my education, work experience, projects, and blog posts about my everyday life. Enjoy!"
+  ProfilePicture = "http://cmicc.tech/photos/cade.png"
+  Email = "me@cademicc.tech"
+  InstagramID = "_cadem"
+  LinkedInID = "cademicciche"
+  SpotifyID = "cademicciche"
+  GithubID = "cmicciche1"
+
+  [menu]
+    [[menu.header]]
+      name = "education"
+      weight = 0
+      url = "/about/education"
+    [[menu.header]]
+      name = "work experience"
+      weight = 0
+      url = "/about/work"
+    [[menu.header]]
+      name = "blog"
+      weight = 0
+      url = "/posts"

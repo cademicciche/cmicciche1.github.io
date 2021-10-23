@@ -2,6 +2,7 @@ baseURL = 'http://cmicciche1.github.io/'
 languageCode = 'en-us'
 title = 'Cade Micciche - Software Engineer'
 theme = "nix"
+publishDir = "docs"
 
 [params]
   Name = "cade"

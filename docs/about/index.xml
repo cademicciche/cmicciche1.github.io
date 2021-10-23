@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cade Micciche - Software Engineer</title>
-    <link>https://cmicciche1.github.io/</link>
-    <description>Recent content on Cade Micciche - Software Engineer</description>
+    <title>Abouts on Cade Micciche - Software Engineer</title>
+    <link>https://cmicciche1.github.io/about/</link>
+    <description>Recent content in Abouts on Cade Micciche - Software Engineer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Oct 2021 23:20:57 -0400</lastBuildDate><atom:link href="https://cmicciche1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2021 23:20:57 -0400</lastBuildDate><atom:link href="https://cmicciche1.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Work</title>
       <link>https://cmicciche1.github.io/about/work/</link>
@@ -44,15 +44,6 @@
 📜 High School Diploma
 📝 GPA 4.1/4.0
 🕐 August 2015 - May 2019</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://cmicciche1.github.io/posts/my-first-post/</link>
-      <pubDate>Fri, 22 Oct 2021 23:02:17 -0400</pubDate>
-      
-      <guid>https://cmicciche1.github.io/posts/my-first-post/</guid>
-      <description></description>
     </item>
     
   </channel>

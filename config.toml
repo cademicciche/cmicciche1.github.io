@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Cade Micciche - Software Engineer'
 theme = "nix"
 publishDir = "docs"
+draft=false
 
 [params]
   Name = "cade"

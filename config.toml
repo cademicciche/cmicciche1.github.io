@@ -1,4 +1,4 @@
-baseURL = 'http://cmicciche1.github.io/'
+baseURL = 'https://cmicciche1.github.io/'
 languageCode = 'en-us'
 title = 'Cade Micciche - Software Engineer'
 theme = "nix"

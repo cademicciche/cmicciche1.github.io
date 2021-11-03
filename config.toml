@@ -1,32 +1,76 @@
 baseURL = 'https://cmicciche1.github.io/'
 languageCode = 'en-us'
 title = 'Cade Micciche - Software Engineer'
-theme = "nix"
+theme = "hello-friend-ng"
+paginate = 10
 publishDir = "docs"
 draft=false
 
 [params]
-  Name = "cade"
-  HeaderUsername = "cade"
-  HeaderHostname = "local.machine"
-  About = "Hi there, I'm Cade! I am a Software Engineer and Computer Science student, who has a passion for developing. Outside of work/school I enjoy the outdoors, running, swimming, photography, and travel. On this website you can find my education, work experience, projects, and blog posts about my everyday life. Enjoy!"
-  ProfilePicture = "http://cmicc.tech/photos/cade.png"
-  Email = "me@cademicc.tech"
-  InstagramID = "_cadem"
-  LinkedInID = "cademicciche"
-  SpotifyID = "cademicciche"
-  GithubID = "cmicciche1"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+  defaultTheme = "dark"
 
+  # Subtitle for home
+  homeSubtitle = "Software Engineer // Student"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Cade Micciche's website."
+  keywords = "software, engineer"
+  images = [""]
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/cmicciche1"
+[[params.social]]
+  name = "email"
+  url = "mailto:me@cmicc.tech"
+[[params.social]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/cademicciche"
+[[params.social]]
+  name = "spotify"
+  url = "https://open.spotify.com/user/cademicciche"
+[[params.social]]
+  name = "instagram"
+  url = "https://instagram.com/_cadem"
+
+
+[languages]
+  [languages.en]
+    title = "Cade Micciche"
+    subtitle = "Software Engineer // Student"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "cd /cade/home/"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
   [menu]
-    [[menu.header]]
-      name = "education"
-      weight = 0
-      url = "/about/education"
-    [[menu.header]]
-      name = "work experience"
-      weight = 0
-      url = "/about/work"
-    [[menu.header]]
-      name = "blog"
-      weight = 0
-      url = "/posts"
+    [[menu.main]]
+      identifier = "blog"
+      name       = "Blog"
+      url        = "/posts"
+    [[menu.main]]
+        identifier = "education"
+        name       = "Education"
+        url        = "/about/education"
+    [[menu.main]]
+        identifier = "work"
+        name       = "Work Experience"
+        url        = "/about/work"
